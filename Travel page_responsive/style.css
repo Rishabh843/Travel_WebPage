@@ -1,0 +1,434 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the banner section */
+.banner {
+    width: 100%;
+    height: 90vh;
+    background-color: gray;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles including the navigation and logo */
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Styles for the logo */
+.logo {
+    width: 10%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for logo text */
+.logo-text {
+    background-color: black;
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+/* Styles for navigation container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation styles */
+.nav {
+    width: 45%;
+    height: 70px;
+}
+
+/* Navigation links styles */
+.nav-links {
+    width: 100%;
+    height: 70px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'poppins';
+}
+
+/* Individual navigation link styles */
+.nav-link {
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+/* Navigation link hover styles */
+.nav-link:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Styles for the banner details */
+.banner-details {
+    width: 100%;
+    padding: 20px 15%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+/* Styles for the badge */
+.badge {
+    width: max-content;
+    padding: 10px 20px;
+    background-color: lightgray;
+    font-family: 'poppins';
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Styles for the banner heading */
+.banner-heading {
+    font-size: 85px;
+    font-family: 'poppins';
+    color: white;
+}
+
+/* Styles for buttons */
+.btn {
+    padding: 18px 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Styles for booking form */
+.booking {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Styles for form inputs */
+.inp {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 5px;
+    justify-content: flex-end;
+}
+
+/* Input styles */
+input {
+    height: 40px;
+    text-indent: 5px;
+    font-size: 16px;
+}
+
+/* Book button styles */
+.book-btn {
+    padding: 10px 30px;
+}
+
+/* Styles for the "About Us" section */
+.about {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: 200;
+    word-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+/* Styles for highlighted text in "About Us" section */
+.highlight {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Styles for the globe icon in "About Us" section */
+.icon {
+    font-size: 40px;
+    color: #06def5;
+}
+
+/* Styles for the "Rooms" section */
+.rooms {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: #f9f9f9;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for section title */
+.section-title {
+    font-size: 30px;
+}
+
+/* Styles for the rooms area */
+.rooms-area {
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 50px;
+}
+
+/* Styles for individual room cards */
+.room {
+    width: 30%;
+    background-color: white;
+}
+
+/* Styles for room images */
+.room-img {
+    height: 270px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Styles for room images on hover */
+.room-image {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.room-image:hover {
+    transform: scale(1.5);
+}
+
+/* Styles for room details */
+.room-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+/* Additional style for room with class .rm */
+.rm {
+    margin-top: -100px;
+}
+
+/* Styles for the "Subscribe" section */
+.subscribe {
+    width: 100%;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the subscription text */
+.sub-text {
+    width: 30%;
+    padding: 10px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Styles for the second logo */
+.logo2 {
+    width: 50%;
+}
+
+/* Styles for the subscription description */
+.sub-desc {
+    font-size: 15px;
+}
+
+/* Styles for the subscription form area */
+.sub-area {
+    width: 35%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'poppins';
+    row-gap: 20px;
+}
+
+/* Styles for the subscription form inputs */
+.sub-form {
+    display: flex;
+}
+
+/* Styles for the subscription input field */
+.sub-inp {
+    width: 75%;
+    height: 60px;
+    margin-right: 10px;
+}
+
+/* Styles for the "Food" section */
+.food {
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+    background-image: url("./images/restaurant.jpg");
+    background-repeat: no-repeat;
+    padding: 50px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Styles for the food details */
+.food-detail {
+    width: 70%;
+    padding: 50px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/* Styles for section header in "Food" section */
+.section-header {
+    font-size: 45px;
+}
+
+/* Styles for the "Premium Rooms" section */
+.premium {
+    width: 100%;
+    padding: 50px 15%;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for premium rooms area */
+.prooms-area {
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for premium room images */
+.proom-image {
+    width: 30%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+/* Styles for premium room boxes */
+.proom-boxes {
+    width: 65%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Styles for premium room box with animations */
+.proom-box {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/* Styles for the "Gallery" section */
+.gallery {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: black;
+}
+
+/* Styles for gallery images */
+.gall-img {
+    width: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.5 !important;
+}
+
+/* Styles for gallery images on hover */
+.gall-img:hover {
+    opacity: 1 !important;
+}
+
+/* Add the following media queries for responsiveness */
+
+/* For screens up to 768px wide (typical smartphones) */
+@media (max-width: 768px) {
+    .header {
+        padding: 0 5%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .nav {
+        width: 80%;
+    }
+
+    .banner-heading {
+        font-size: 36px;
+    }
+
+    .room {
+        width: 90%;
+    }
+}
+
+/* For screens up to 480px wide (smaller smartphones) */
+@media (max-width: 480px) {
+    .banner-heading {
+        font-size: 24px;
+    }
+
+    .room {
+        width: 100%;
+    }
+}
